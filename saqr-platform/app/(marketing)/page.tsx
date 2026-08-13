@@ -24,10 +24,10 @@ import { GameCard } from '@/components/marketing/game-card'
 import { games, liveChat } from '@/lib/data'
 
 const stats = [
-  { value: '+٢.٤ مليون', label: 'مشاهد متفاعل' },
-  { value: '+١٨ ألف', label: 'مبدع نشط' },
-  { value: '+١٥ لعبة', label: 'لعبة تفاعلية' },
-  { value: '٩٩.٩٪', label: 'وقت تشغيل' },
+  { value: '٣٤,٨٠٠+', label: 'غرفة تم إنشاؤها' },
+  { value: '١١,٢٠٠+', label: 'لاعب نشط يومياً' },
+  { value: '٤٨+', label: 'لعبة تفاعلية' },
+  { value: '٥,٦٠٠+', label: 'مباراة يومية' },
 ]
 
 const features = [
@@ -92,6 +92,16 @@ const roles = [
     href: '/admin',
     variant: 'glass' as const,
   },
+  {
+    icon: Users,
+    title: 'غرف متعددة اللاعبين',
+    desc: 'أنشئ غرفاً عامة أو خاصة وشارك رمز الانضمام مع مجتمعك.'
+},
+{
+    icon: Brain,
+    title: 'مولد أسئلة بالذكاء الاصطناعي',
+    desc: 'أنشئ جولات وأسئلة جديدة خلال ثوانٍ باستخدام الذكاء الاصطناعي.'
+}
 ]
 
 export default function LandingPage() {
