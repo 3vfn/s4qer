@@ -136,10 +136,6 @@ export default function LandingPage() {
           </div>
           <div className="flex items-center gap-6 pt-2 text-sm text-muted-foreground">
             <span className="inline-flex items-center gap-2">
-              <Zap className="size-4 text-accent" />
-              بدون بطاقة ائتمان
-            </span>
-            <span className="inline-flex items-center gap-2">
               <Shield className="size-4 text-success" />
               إعداد خلال دقائق
             </span>
