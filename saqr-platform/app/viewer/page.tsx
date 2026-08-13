@@ -1,3 +1,5 @@
+'use client'
+
 import { DashboardShell } from "@/components/dashboard/dashboard-shell"
 import { DashboardPage } from "@/components/dashboard/dashboard-page"
 import { viewerConfig } from "@/components/dashboard/dashboard-config"
