@@ -15,6 +15,8 @@ import {
   Eye,
   Video,
   ShieldCheck,
+  Users,
+  Brain,
 } from 'lucide-react'
 import { CtaButton } from '@/components/ui/cta-button'
 import { GlassCard } from '@/components/ui/glass-card'
